@@ -1,0 +1,56 @@
+footer {
+    background-color: #000000;
+    color: cornsilk;
+    height: 300px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.footer-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+}
+
+.footer-content {
+    width: 300px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 1rem;
+}
+
+.btn-medias {
+    display: flex;
+    gap: 1rem;
+}
+
+.btn-medias a {
+    all: unset;
+    background-color: cornsilk;
+    cursor: pointer;
+    border-radius: 100%;
+    padding: 0.3rem;
+}
+
+.btn-medias i {
+    color: #000000;
+    font-size: 50px;
+}
+
+.links {
+    display: flex;
+    cursor: pointer;
+    gap: 1rem;
+}
+
+.links a {
+    all: unset;
+    font-size: 1rem;
+}
+
+.links a:hover {
+    text-decoration: underline;
+}
